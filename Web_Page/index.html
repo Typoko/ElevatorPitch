@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <title>Timo Raivonen</title>
+    
+    <style type="text/css">
+        .piilo:before {
+            content: attr(dw) "\0040" attr(du);
+            unicode-bidi: bidi-override;
+            direction: rtl;
+        }
+    </style>
+</head>
+
+<body>
+<div class="main">
+    <div class="top">
+        <img src="top.jpg">
+    </div>
+    <div class="navigation">
+        <div class="buttons">
+            <button onclick="showTab(0)">Minä</button>
+            <button onclick="showTab(1)">Harrasteprojektit</button>
+            <button onclick="showTab(2)">Yhteystiedot</button>
+        </div>
+    </div>
+    <div class="info">
+        <div class="tabs">
+            <div class="tab" id="tab1">
+                <h1>Kuka olen?</h1>
+                    <p>tättärää</p>
+                <h1>Mitä osaan?</h1>
+                    <p>tättärääääää</p>
+                <h1>Mitä touhaan?</h1>
+                    <p>adsasddssa</p>
+            </div>
+            
+            <div class="tab" id="tab2">
+                <div class="projektit">
+                    <div class="projekti" onclick="openInfo(0)">Nettisivut</div>
+                    <div class="projekti" onclick="openInfo(1)">Kuvamuokkaus</div>
+                    <div class="projekti" onclick="openInfo(2)">Peliprojekti</div>
+                </div>
+                <div class="projektiInfot">
+                    <div class="projektiInfo"><h2>Nettisivut</h2></div>
+                    <div class="projektiInfo"><h2>Boop2!</h2></div>
+                    <div class="projektiInfo"><h2>Boop3!</h2></div>
+                </div>
+            </div>
+                        
+            <div class="tab" id="tab3">
+                <h1>Sähköposti</h1>
+                    <p><span class="piilo" du="nenoviaromit" dw="moc.liamg"></span></p>
+                <h1>LinkedIn</h1>
+                    <p>tättärää</p>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        
+    </div>
+    
+</div>
+<script src="meScript.js"></script>
+</body>
+</html>
