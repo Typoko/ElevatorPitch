@@ -86,7 +86,7 @@ float:left;
 .projektiInfo{
 text-align: left;
 padding-left: 10px;
-padding-right: 10px;
+padding-right: 20px;
 padding-top: 0px;
 display:none;
 }
@@ -119,14 +119,18 @@ padding-top: 1px;
 
 h1{
 font-size: 32px;
+margin-bottom: 5px;
 }
 
 h2{
 font-size: 32px;
+margin-top: 10px;
+margin-bottom: 10px;
 text-align: center;
 }
 
 p{
+margin-top: 0px;
 padding-left: 10px;
 }
 

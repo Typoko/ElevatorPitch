@@ -18,14 +18,17 @@ Avainsanat: HTML, JavaScript, CSS";
 //Demoprojekti
 var projinfo2 = document.getElementById("pi2_text");
 
-projinfo2.innerHTML +="Testaus tekstille.";
+projinfo2.innerHTML +="Testaus tekstille.<br /><br /> \
+Avainsanat: ASP.NET, C#, Razor, JavaScript";
 
 //Kuvamuokkaus
 var projinfo3 = document.getElementById("pi3_text");
 
-projinfo3.innerHTML +="Testaus tekstille.";
+projinfo3.innerHTML +="Olen jo pitkään käyttänyt GIMP:iä satunnaiseen kuvien luomiseen, käsittelyyn ja muuntamiseen. Iso osa tästä harrasteesta on keskittynyt vitsien luomiseen, roolipeleihin liittyvien kuvien muuntamiseen ja hetkellisten päähänpistosten testailuun. Yleensä myös luon tarvitsemiani tekstuureita ohjelmistoprojekteihin, kuten esimerkiksi CBC Demoprojektiin. <br /><br /> \
+Avainsanat: GIMP";
 
 //Peliprojekti
 var projinfo4 = document.getElementById("pi4_text");
 
-projinfo4.innerHTML +="Testaus tekstille.";
+projinfo4.innerHTML +="Testaus tekstille.<br /><br /> \
+Avainsanat: C#, Unity3D";
