@@ -29,24 +29,44 @@
     <div class="info">
         <div class="tabs">
             <div class="tab" id="tab1">
-                <h1>Kuka olen?</h1>
-                    <p>tättärää</p>
-                <h1>Mitä osaan?</h1>
-                    <p>tättärääääää</p>
-                <h1>Mitä touhaan?</h1>
-                    <p>adsasddssa</p>
+                
             </div>
             
             <div class="tab" id="tab2">
                 <div class="projektit">
-                    <div class="projekti" onclick="openInfo(0)">Nettisivut</div>
-                    <div class="projekti" onclick="openInfo(1)">Kuvamuokkaus</div>
-                    <div class="projekti" onclick="openInfo(2)">Peliprojekti</div>
+                    <div class="projekti" onclick="openInfo(0)">
+                        <div class="projektiNimi">Nettisivut</div>
+                        <div class="projektiNuoli">
+                            <canvas class="arrowCanvas" width="10" height="10"></canvas>
+                        </div>                        
+                    </div>
+                    <div class="projekti" onclick="openInfo(1)">
+                        <div class="projektiNimi">Demoprojekti</div>
+                        <div class="projektiNuoli">
+                            <canvas class="arrowCanvas" width="10" height="10"></canvas>
+                        </div> 
+                    </div>
+                    <div class="projekti" onclick="openInfo(2)">
+                        <div class="projektiNimi">Kuvamuokkaus</div>
+                        <div class="projektiNuoli">
+                            <canvas class="arrowCanvas" width="10" height="10"></canvas>
+                        </div>  
+                    </div>
+                    <div class="projekti" onclick="openInfo(3)">
+                        <div class="projektiNimi">Peliprojekti</div>
+                        <div class="projektiNuoli">
+                            <canvas class="arrowCanvas" width="10" height="10"></canvas>
+                        </div> 
+                    </div>
                 </div>
                 <div class="projektiInfot">
-                    <div class="projektiInfo"><h2>Nettisivut</h2></div>
-                    <div class="projektiInfo"><h2>Boop2!</h2></div>
-                    <div class="projektiInfo"><h2>Boop3!</h2></div>
+                    <div class="projektiInfo">
+                        <h2>Nettisivut</h2>
+                        <p class="infoP" id="pi1_text"></p>
+                    </div>
+                    <div class="projektiInfo"><h2>Demoprojekti</h2></div>
+                    <div class="projektiInfo"><h2>Kuvamuokkaus</h2></div>
+                    <div class="projektiInfo"><h2>Peliprojekti</h2></div>
                 </div>
             </div>
                         
@@ -54,6 +74,8 @@
                 <h1>Sähköposti</h1>
                     <p><span class="piilo" du="nenoviaromit" dw="moc.liamg"></span></p>
                 <h1>LinkedIn</h1>
+                    <p>tättärää</p>
+                <h1>Github</h1>
                     <p>tättärää</p>
             </div>
         </div>
@@ -63,6 +85,9 @@
     </div>
     
 </div>
+
+
 <script src="meScript.js"></script>
+<script src="meText.js"></script>
 </body>
 </html>
