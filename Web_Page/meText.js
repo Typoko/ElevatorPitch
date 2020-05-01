@@ -11,7 +11,9 @@ tab1Div.innerHTML +="<h1>Kuka olen?</h1> \
 //Nettisivut
 var projinfo1 = document.getElementById("pi1_text");
 
-projinfo1.innerHTML +="Testaus tekstille.";
+projinfo1.innerHTML +="Olen jo jonkin aikaa miettinyt mikä olisi minulle hyvä tapa järjestää harrasteprojektejani siten, että pystyn helposti esittelemään niitä halutessani. Päätin vihdoin thedä yksinkertaisen nettisivun, missä pystyn listaamaan lyhyesti kuvauksen projekteistani ja linkkaamaan githubiin esimerkkikoodiin. <br /><br /> \
+Nämä sivut on tehty yksinkertaisesti HTML:n, JavaScriptin ja CCS:n kanssa frontend toteutuksena. Yksinkertaisuuden ideana on se, että jos haluan tehdä jotain monimutkaisempaa, niin luon sen erillisenä projektina ja näin pystyn saamaan nämä sivut alustavasti verkkoon mahdollisimman nopeasti. <br /><br /> \
+Avainsanat: HTML, JavaScript, CSS";
 
 //Demoprojekti
 var projinfo2 = document.getElementById("pi2_text");
