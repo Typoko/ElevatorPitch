@@ -18,8 +18,8 @@ Avainsanat: HTML, JavaScript, CSS";
 //Demoprojekti
 var projinfo2 = document.getElementById("pi2_text");
 
-projinfo2.innerHTML +="CBC demoprojekti on osa Code Bootcamppia jonka aikana käytiin ohjelmoinnin perusteita ja tarkemmin web appien luomista. Itse en ole aikaisemmin tehnyt mitään varsinaista ASP.NET projektia, joten keskityin bootcampin lyhyessä saamaan aikaiseksi jotain toimivaa. Webapp luo ääriviivoilla tehdystä kuvasta yksinkertaisen ja käyttökelpoisen kartan perinteisiä pöytäroolipelejä varten. <br /><br /> \
-ASP.NET Core projektissa käytin backendinä C#:ia ääriviivakartan analysoimiseen ja kartan piirtämiseen käytin JavaScriptiä ja Razoria. Kartan piirto on toteutettu HTML5 Canvas elementin avulla, johon pystyy piirtämään JavaScriptistä proseduraalisesti ruutu kerrallaan. <br /><br /> \
+projinfo2.innerHTML +="Map Flipperin oli osa Code Bootcamppia jonka aikana käytiin ohjelmoinnin perusteita ja tarkemmin web appien luomista. Itse en ole aikaisemmin tehnyt mitään varsinaista ASP.NET projektia, joten keskityin bootcampin lyhyessä saamaan aikaiseksi jotain toimivaa. Webapp luo ääriviivoilla tehdystä kuvasta yksinkertaisen ja käyttökelpoisen kartan perinteisiä pöytäroolipelejä varten. <br /><br /> \
+ASP.NET Core projektissa on backendinä C# ääriviivakartan analysoimiseen ja kartan piirtämiseen JavaScript ja Razor. Kartan piirto on toteutettu HTML5 Canvas elementin avulla, johon pystyy piirtämään JavaScriptistä proseduraalisesti ruutu kerrallaan. <br /><br /> \
 Avainsanat: ASP.NET Core, C#, Razor, JavaScript";
 // Projekti on tarkoitus tehdä vielä bootcampin jälkeen paremmaksi. Muutettuani toimien järjestystä, pystyy kuvan palauttamaan näkyväksi selaimeen tallentamatta sitä serverille siinä välissä. Tässä kohtaa minulla on tarkoitus julkaista appi kaikkien käytettäväksi. <br /><br /> \
 
@@ -32,5 +32,7 @@ Avainsanat: GIMP";
 //Peliprojekti
 var projinfo4 = document.getElementById("pi4_text");
 
-projinfo4.innerHTML +="Testaus tekstille.<br /><br /> \
+projinfo4.innerHTML +="Jo jokin aika sitten aloin luomaan pohjaa pelille, jonka tarkoituksena oli toimia ohjaimella ja käyttää kahta tikkuohjainta liikkumiseen ja kyökkäämiseen. Erona tavalliseen vastaavaa kontrollointia käyttävään peliin tarkoitus on, että oma hahmo käyttää lähitaisteluaseita ampumisen sijaan. Aseen liike mallinnetaan kolmiulotteisesti vastaamaan tikun asentoa, ja tikkua liikuttamalla hahmo iskee aseen kanssa eri suuntiin.<br /><br /> \
+Mitään valmista ohjaus tai pelikirjastoa pelin kehittämiseen ei ole käytetty, vaan päätarkoituksena oli itse luoda kaikki alusta asti niin, että modulaarisuus ja satunnainen generointi on hyvin vahvasti otettuna huomioon.<br /><br /> \
+Projetki on edennyt satunnaisesti, mutta alkeellisella tasolla vihollisia pystyy luomaan, niiden kanssa taistelemaan ja taloja generoimaan annettujen huonekokojen mukaan. <br /><br /> \
 Avainsanat: C#, Unity3D";
