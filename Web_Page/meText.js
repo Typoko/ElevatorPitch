@@ -18,8 +18,10 @@ Avainsanat: HTML, JavaScript, CSS";
 //Demoprojekti
 var projinfo2 = document.getElementById("pi2_text");
 
-projinfo2.innerHTML +="Testaus tekstille.<br /><br /> \
-Avainsanat: ASP.NET, C#, Razor, JavaScript";
+projinfo2.innerHTML +="CBC demoprojekti on osa Code Bootcamppia jonka aikana käytiin ohjelmoinnin perusteita ja tarkemmin web appien luomista. Itse en ole aikaisemmin tehnyt mitään varsinaista ASP.NET projektia, joten keskityin bootcampin lyhyessä saamaan aikaiseksi jotain toimivaa. Webapp luo ääriviivoilla tehdystä kuvasta yksinkertaisen ja käyttökelpoisen kartan perinteisiä pöytäroolipelejä varten. <br /><br /> \
+ASP.NET Core projektissa käytin backendinä C#:ia ääriviivakartan analysoimiseen ja kartan piirtämiseen käytin JavaScriptiä ja Razoria. Kartan piirto on toteutettu HTML5 Canvas elementin avulla, johon pystyy piirtämään JavaScriptistä proseduraalisesti ruutu kerrallaan. <br /><br /> \
+Avainsanat: ASP.NET Core, C#, Razor, JavaScript";
+// Projekti on tarkoitus tehdä vielä bootcampin jälkeen paremmaksi. Muutettuani toimien järjestystä, pystyy kuvan palauttamaan näkyväksi selaimeen tallentamatta sitä serverille siinä välissä. Tässä kohtaa minulla on tarkoitus julkaista appi kaikkien käytettäväksi. <br /><br /> \
 
 //Kuvamuokkaus
 var projinfo3 = document.getElementById("pi3_text");
