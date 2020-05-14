@@ -36,3 +36,10 @@ projinfo4.innerHTML +="Jo jokin aika sitten aloin luomaan pohjaa pelille, jonka 
 Mitään valmista ohjaus tai pelikirjastoa pelin kehittämiseen ei ole käytetty, vaan päätarkoituksena oli itse luoda kaikki alusta asti niin, että modulaarisuus ja satunnainen generointi on hyvin vahvasti otettuna huomioon.<br /><br /> \
 Projetki on edennyt satunnaisesti, mutta alkeellisella tasolla vihollisia pystyy luomaan, niiden kanssa taistelemaan ja taloja generoimaan annettujen huonekokojen mukaan. <br /><br /> \
 Avainsanat: C#, Unity3D";
+
+//Pikkupelit
+var projinfo5 = document.getElementById("pi5_text");
+
+projinfo5.innerHTML +="Pienempiä peliprojekteja on tullut tehtyä yli 20 vuoden ajan QBasic tekstiseikkailuista Unity projekteihin. Yksi näistä peliprojekteista on yksinkertainen ja nopeasti tehty testailyprojekti, jossa pelaaja ohjaa palloa mikä liikkuu radalla. Haasteena pelaajalle radalla pysymisen lisäksi on taustan värin muuttuminen samaksi kuin itse rata, jolloin enää näkyviin jää välipisteet. <br /><br /> \
+Projekti ei ole mikään maata mullistava, vaan lähinnä testailua Unityn moottorilla.<br /><br /> \
+Avainsanat: C#, Unity3D";
