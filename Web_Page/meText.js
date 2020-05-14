@@ -32,7 +32,7 @@ Avainsanat: GIMP";
 //Peliprojekti
 var projinfo4 = document.getElementById("pi4_text");
 
-projinfo4.innerHTML +="Jo jokin aika sitten aloin luomaan pohjaa pelille, jonka tarkoituksena oli toimia ohjaimella ja käyttää kahta tikkuohjainta liikkumiseen ja kyökkäämiseen. Erona tavalliseen vastaavaa kontrollointia käyttävään peliin tarkoitus on, että oma hahmo käyttää lähitaisteluaseita ampumisen sijaan. Aseen liike mallinnetaan kolmiulotteisesti vastaamaan tikun asentoa, ja tikkua liikuttamalla hahmo iskee aseen kanssa eri suuntiin.<br /><br /> \
+projinfo4.innerHTML +="Jo jokin aika sitten aloin luomaan pohjaa pelille Shrouded Valley, jonka tarkoituksena oli toimia ohjaimella ja käyttää kahta tikkuohjainta liikkumiseen ja kyökkäämiseen. Erona tavalliseen vastaavaa kontrollointia käyttävään peliin tarkoitus on, että oma hahmo käyttää lähitaisteluaseita ampumisen sijaan. Aseen liike mallinnetaan kolmiulotteisesti vastaamaan tikun asentoa, ja tikkua liikuttamalla hahmo iskee aseen kanssa eri suuntiin.<br /><br /> \
 Mitään valmista ohjaus tai pelikirjastoa pelin kehittämiseen ei ole käytetty, vaan päätarkoituksena oli itse luoda kaikki alusta asti niin, että modulaarisuus ja satunnainen generointi on hyvin vahvasti otettuna huomioon.<br /><br /> \
 Projetki on edennyt satunnaisesti, mutta alkeellisella tasolla vihollisia pystyy luomaan, niiden kanssa taistelemaan ja taloja generoimaan annettujen huonekokojen mukaan. <br /><br /> \
 Avainsanat: C#, Unity3D";
