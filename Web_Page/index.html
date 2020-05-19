@@ -20,10 +20,13 @@
         <img src="top.jpg">
     </div>
     <div class="navigation">
+        <div class="language">
+            <button onclick="swapLanguage()"><img id="flagImage" src="fin.jpg" width="38" height="24" class=></button>
+        </div>
         <div class="buttons">
-            <button onclick="showTab(0)">Minä</button>
-            <button onclick="showTab(1)">Harrasteprojektit</button>
-            <button onclick="showTab(2)">Yhteystiedot ja Linkit</button>
+            <button onclick="showTab(0)" id="btnMe">Minä</button>
+            <button onclick="showTab(1)" id="btnHobby">Harrasteprojektit</button>
+            <button onclick="showTab(2)" id="btnContact">Yhteystiedot ja Linkit</button>
         </div>
     </div>
     <div class="info">
@@ -35,31 +38,31 @@
             <div class="tab" id="tab2">
                 <div class="projektit">
                     <div class="projekti" onclick="openInfo(0)">
-                        <div class="projektiNimi">Nettisivut</div>
+                        <div class="projektiNimi" id="projNam0">Nettisivut</div>
                         <div class="projektiNuoli">
                             <canvas class="arrowCanvas" width="10" height="10"></canvas>
                         </div>                        
                     </div>
                     <div class="projekti" onclick="openInfo(1)">
-                        <div class="projektiNimi">Map Flipper</div>
+                        <div class="projektiNimi" id="projNam1">Map Flipper</div>
                         <div class="projektiNuoli">
                             <canvas class="arrowCanvas" width="10" height="10"></canvas>
                         </div> 
                     </div>
                     <div class="projekti" onclick="openInfo(2)">
-                        <div class="projektiNimi">Kuvakäsittely</div>
+                        <div class="projektiNimi" id="projNam2">Kuvakäsittely</div>
                         <div class="projektiNuoli">
                             <canvas class="arrowCanvas" width="10" height="10"></canvas>
                         </div>  
                     </div>
                     <div class="projekti" onclick="openInfo(3)">
-                        <div class="projektiNimi">Isompi Peliprojekti</div>
+                        <div class="projektiNimi" id="projNam3">Isompi Peliprojekti</div>
                         <div class="projektiNuoli">
                             <canvas class="arrowCanvas" width="10" height="10"></canvas>
                         </div> 
                     </div>
                     <div class="projekti" onclick="openInfo(4)">
-                        <div class="projektiNimi">Pikkupelejä</div>
+                        <div class="projektiNimi" id="projNam4">Pikkupelejä</div>
                         <div class="projektiNuoli">
                             <canvas class="arrowCanvas" width="10" height="10"></canvas>
                         </div> 
@@ -67,26 +70,26 @@
                 </div>
                 <div class="projektiInfot">
                     <div class="projektiInfo">
-                        <h2>Nettisivut</h2>
-                        <p class="infoP" id="pi1_text" style="text-align: justify;"></p>
+                        <h2 id="projNamH20">Nettisivut</h2>
+                        <p class="infoP" id="pi0_text" style="text-align: justify;"></p>
                     </div>
                     <div class="projektiInfo">
-                        <h2>Map Flipper</h2>
-                        <p class="infoP" id="pi2_text" style="text-align: justify;"></p>
+                        <h2 id="projNamH21">Map Flipper</h2>
+                        <p class="infoP" id="pi1_text" style="text-align: justify;"></p>
                         <a href="proj_Images/CBC_demo1.jpg" target="_blank"><img src="proj_Images/CBC_demo1.jpg" class="projektiKuva"></a>
                         <a href="proj_Images/CBC_demo2.jpg" target="_blank"><img src="proj_Images/CBC_demo2.jpg" class="projektiKuva"></a>
                     </div>
                     <div class="projektiInfo">
-                        <h2>Kuvakäsittely</h2>
-                        <p class="infoP" id="pi3_text" style="text-align: justify;"></p>
-                    </div>
-                    <div class="projektiInfo"
-                        ><h2>Isompi Peliprojekti</h2>
-                        <p class="infoP" id="pi4_text" style="text-align: justify;"></p>
+                        <h2 id="projNamH22">Kuvakäsittely</h2>
+                        <p class="infoP" id="pi2_text" style="text-align: justify;"></p>
                     </div>
                     <div class="projektiInfo">
-                        <h2>Pikkupelejä</h2>
-                        <p class="infoP" id="pi5_text" style="text-align: justify;"></p>
+                        <h2 id="projNamH23">Isompi Peliprojekti</h2>
+                        <p class="infoP" id="pi3_text" style="text-align: justify;"></p>
+                    </div>
+                    <div class="projektiInfo">
+                        <h2 id="projNamH24">Pikkupelejä</h2>
+                        <p class="infoP" id="pi4_text" style="text-align: justify;"></p>
                         <a href="proj_Images/Unity_Testaus1.jpg" target="_blank"><img src="proj_Images/Unity_Testaus1.jpg" class="projektiKuva"></a>
                         <a href="proj_Images/Unity_Testaus2.jpg" target="_blank"><img src="proj_Images/Unity_Testaus2.jpg" class="projektiKuva"></a>
                     </div>
@@ -94,15 +97,15 @@
             </div>
                         
             <div class="tab" id="tab3">
-                <h1>Sähköposti</h1>
+                <h1 id="infoEmail">Sähköposti</h1>
                     <p><span class="piilo" du="nenoviaromit" dw="moc.liamg"></span></p>
-                <h1>LinkedIn</h1>
-                    <a href="https://www.linkedin.com/in/timo-raivonen" target="_blank" style="padding-left: 10px;">LinkedIn profiili</a>
-                <h1>Github</h1>
-                    <a href="https://github.com/Typoko/ElevatorPitch" target="_blank" style="padding-left: 10px;">Yleinen esimerkkikoodein repository</a></br>
-                    <a href="https://github.com/Typoko/CBC_WebDemo" target="_blank" style="padding-left: 10px;">Map Flipper repository</a>
-                <h1>Web Apit</h1>
-                    <a href="http://typoko-001-site1.dtempurl.com/" target="_blank" style="padding-left: 10px;">Map Flipper</a></br>
+                <h1 id="infoLinkedin">LinkedIn</h1>
+                    <a href="https://www.linkedin.com/in/timo-raivonen" id="infoLinkedin0" target="_blank" style="padding-left: 10px;">LinkedIn profiili</a>
+                <h1 id="infoGithub">Github</h1>
+                    <a href="https://github.com/Typoko/ElevatorPitch" id="infoGithub0" target="_blank" style="padding-left: 10px;">Yleinen esimerkkikoodein repository</a></br>
+                    <a href="https://github.com/Typoko/CBC_WebDemo" id="infoGithub1" target="_blank" style="padding-left: 10px;">Map Flipper repository</a>
+                <h1 id="infoWebApp">Web Apit</h1>
+                    <a href="http://typoko-001-site1.dtempurl.com/" id="infoWebApp0" target="_blank" style="padding-left: 10px;">Map Flipper</a></br>
             </div>
         </div>
     </div>

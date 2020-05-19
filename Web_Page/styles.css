@@ -16,12 +16,34 @@ background: #dddddd;
 height: 40px;
 background-image: url("navigation.jpg");
 }
+
+.navigation .language{
+height: 100%;
+width: 5%;
+float: left;
+}
+.navigation .language button{
+margin: 7px auto;
+width: 38px;
+height: 24px;
+border: 0px;
+outline: 0px;
+cursor: pointer;
+float: center;
+background-color:white;
+}
+.navigation .language img{
+margin: 0px auto;
+}
+
 .navigation .buttons{
 height: 100%;
+width: 95%;
+float: left;
 }
 .navigation .buttons button{
 margin: 7px auto;
-width: 25%;
+width: 29%;
 height: 60%;
 border: none;
 outline: none;
