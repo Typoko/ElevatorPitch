@@ -65,9 +65,9 @@ function swapLanguage(){
         projNam1.innerHTML = "Map Flipper";
         projNamH21.innerHTML = "Map Flipper";
 
-        projinfo1.innerHTML ="Map Flipperin oli osa Code Bootcamppia jonka aikana käytiin ohjelmoinnin perusteita ja tarkemmin web appien luomista. Itse en ole aikaisemmin tehnyt mitään varsinaista ASP.NET projektia, joten keskityin bootcampin lyhyessä saamaan aikaiseksi jotain toimivaa. Webapp luo ääriviivoilla tehdystä kuvasta yksinkertaisen ja käyttökelpoisen kartan perinteisiä pöytäroolipelejä varten. <br /><br /> \
-        ASP.NET Core projektissa on backendinä C# ääriviivakartan analysoimiseen ja kartan piirtämiseen JavaScript ja Razor. Kartan piirto on toteutettu HTML5 Canvas elementin avulla, johon pystyy piirtämään JavaScriptistä proseduraalisesti ruutu kerrallaan. <br /><br /> \
-        Avainsanat: ASP.NET Core, C#, Razor, JavaScript";
+        projinfo1.innerHTML ="En ole aikaisemmin tehnyt mitään varsinaista ASP.NET projektia, joten keskityin code bootcampin lyhyessä ajassa saamaan aikaiseksi jotain toimivaa. Webapp luo ääriviivoilla tehdystä kuvasta yksinkertaisen kartan perinteisiä pöytäroolipelejä varten. <br /><br /> \
+        ASP.NET Core projektissa on backendinä C# ääriviivakartan analysoimiseen ja kartan piirtämiseen JavaScript ja Razor. Kartan piirto on toteutettu Canvas elementin avulla, johon pystyy piirtämään JavaScriptistä proseduraalisesti ruutu kerrallaan. Ohjelmisto myös tarjoaa mahdollisuuden automaattisesti luoda dynaamisen valaistuksen seinät Roll20 API:n kautta. <br /><br /> \
+        Avainsanat: ASP.NET Core, C#, Razor, JavaScript, Roll20 API";
         // Projekti on tarkoitus tehdä vielä bootcampin jälkeen paremmaksi. Muutettuani toimien järjestystä, pystyy kuvan palauttamaan näkyväksi selaimeen tallentamatta sitä serverille siinä välissä. Tässä kohtaa minulla on tarkoitus julkaista appi kaikkien käytettäväksi. <br /><br /> \
         
         //Kuvamuokkaus        
@@ -136,9 +136,9 @@ function swapLanguage(){
         projNam1.innerHTML = "Map Flipper";
         projNamH21.innerHTML = "Map Flipper";
 
-        projinfo1.innerHTML ="Map Flipper was started as a part of Code Bootcamp that focused on creating web apps. Before the bootcamp I haven't hade any ASP.NET projects, so my project focused on something that I knew I could get working in few weeks. The web app creates a map usable in traditional roleplaying games from a wireframe image. <br /><br />\
-        In the ASP.NET Core project C# is used as the backend language to analyze the original image. For the frontend the project uses Razor and JavaScript. The drawing of the map is done by using a HTML5 canvas, that is drawn on procedurally one square at a time with JavaScript. <br /><br /> \
-        Keywords: ASP.NET Core, C#, Razor, JavaScript";
+        projinfo1.innerHTML ="Before the bootcamp I haven't done any ASP.NET projects, so my project focused on something that I knew I could get working in few weeks. The web app creates a map usable in traditional roleplaying games from a wireframe image. <br /><br />\
+        In the ASP.NET Core project C# is used as the backend language to analyze the original image. For the frontend the project uses Razor and JavaScript. The drawing of the map is done by using a canvas element, that is drawn on procedurally one square at a time with JavaScript. The app also offers a possibility to automatically generate walls for dynamic lighting through the Roll20 API. <br /><br /> \
+        Keywords: ASP.NET Core, C#, Razor, JavaScript, Roll20 API";
         // Projekti on tarkoitus tehdä vielä bootcampin jälkeen paremmaksi. Muutettuani toimien järjestystä, pystyy kuvan palauttamaan näkyväksi selaimeen tallentamatta sitä serverille siinä välissä. Tässä kohtaa minulla on tarkoitus julkaista appi kaikkien käytettäväksi. <br /><br /> \
         
         //Kuvamuokkaus        
